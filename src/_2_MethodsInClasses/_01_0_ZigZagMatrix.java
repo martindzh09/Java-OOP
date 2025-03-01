@@ -2,7 +2,7 @@ package _2_MethodsInClasses;
 
 import java.util.Scanner;
 
-public class _01_ZigZagMatrix {
+public class _01_0_ZigZagMatrix {
 	// saving data for matrix size (both rows and columns)
 	int n; // field 1
 

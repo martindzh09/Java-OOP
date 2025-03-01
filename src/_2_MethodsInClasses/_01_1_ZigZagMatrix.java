@@ -1,10 +1,10 @@
 package _2_MethodsInClasses;
 
-public class _01_ZigZagObject {
+public class _01_1_ZigZagMatrix {
 
     public static void main() {
         // creating an object, instance of the class "01_ZigZagMatrix"
-        _01_ZigZagMatrix object = new _01_ZigZagMatrix();
+        _01_0_ZigZagMatrix object = new _01_0_ZigZagMatrix();
 
         // assigning a value to field using Method I from the same class
         object.n = object.matrixSizing(); // field 1 is assigned a value
