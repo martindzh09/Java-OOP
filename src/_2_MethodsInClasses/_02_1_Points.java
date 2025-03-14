@@ -90,16 +90,18 @@ class _02_1_Points {
 		minPoints[1] = 1; // minPoints[0] = 0 is redundant (assigned this value by default)
 
 		for (int i = 1; i < n; i++) {
-			// value for a difference (between each consecutive numbers) in each iteration
-			double diff = Math.abs(pointsDistances[i] - pointsDistances[i - 1]);
+			for (int j = i + 1; j < n; j++) {
+				// assigning current value for difference in distances
+				double currentDiff = Math.abs(pointsDistances[i] - pointsDistances[j]);
 
-			// a case where value for a difference is less than the default set one (above)
-			if (diff < minDistanceDiff) {
-				minDistanceDiff = diff;
+				if (currentDiff < minDistanceDiff) {
+					// new value for minimal distance is set
+					minDistanceDiff = currentDiff;
 
-				// assigning numbers (positions)
-				minPoints[0] = (i - 1);
-				minPoints[1] = i;
+					// indexes of the pair of points are marked
+					minPoints[0] = i;
+					minPoints[1] = j;
+				}
 			}
 		}
 
