@@ -18,7 +18,7 @@ public class _03_Person {
         System.out.println("\n" + "What is your first name?");
         personality.firstName = scr.nextLine();
 
-        System.out.println("\n" + "What is your lats name?");
+        System.out.println("\n" + "What is your last name?");
         personality.lastName = scr.nextLine();
 
         System.out.println("\n" + "How old are you?");
