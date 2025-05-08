@@ -198,5 +198,7 @@ class _01_0_ShapeMain {
         System.out.printf("%nRECTANGLES: %d", rectangles);
         System.out.printf("%nTRIANGLES: %d", triangles);
         System.out.printf("%nSQUARES: %d%n", squares);
+
+        scr.close();
     }
 }
