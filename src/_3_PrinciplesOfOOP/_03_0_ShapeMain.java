@@ -18,7 +18,7 @@ class _03_0_ShapeMain {
     }
 
     // Main method (program)
-    public static void main() {
+    public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
 
         // new list collecting shapes' data

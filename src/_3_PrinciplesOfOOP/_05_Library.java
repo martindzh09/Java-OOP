@@ -17,7 +17,7 @@ class _05_Library {
       books.add(new _05_Book(title, author, yearPublished, isbn));
     }
 
-    // (Static) Method 3 - Format of printing data of each book
+    // (Static) Method 3 - Format printing data of each book
     static void bookData(String title, String author, int yearPublished, String isbn) {
         System.out.println("\n" + "-----------------------");
 

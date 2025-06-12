@@ -41,7 +41,7 @@ class _05_Library_Main {
     }
 
     // Main method (05)
-    public static void main() {
+    public static void main(String[] args) {
         String option;
 
         /* instancing an object (a library) the program works (operates) with;
@@ -67,7 +67,7 @@ class _05_Library_Main {
                         parameters of a new book in the library */
                     _05_Book bookTransfer = bookData(); // (main class' static) method
 
-                    // a new book is added using the overloaded method 2 in class "_05_Library"
+                    // a new book is added using overloaded method 2 in class "_05_Library"
                     library.addBook(bookTransfer.getTitle(), bookTransfer.getAuthor(),
                             bookTransfer.getYearPublished(), bookTransfer.getIsbn());
 

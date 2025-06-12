@@ -19,7 +19,7 @@ class _01_0_ShapeMain {
     }
 
     // Main method (program 01)
-    public static void main() {
+    public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
 
         // ArrayList where shapes are saved
@@ -52,7 +52,7 @@ class _01_0_ShapeMain {
                     // referring to an object of type _01_1_Circle, an inheritor class "_01_Shape"
                     _01_Shape circle = new _01_1_Circle(radius);
 
-                    // adding new object of type "_01_Shape" ("_01_1_Circle") in the ArrayList
+                    // adding a new object of type "_01_Shape" ("_01_1_Circle") in the ArrayList
                     shapes.add(circle);
 
                     System.out.printf("%nData for %s: %n", circle.getName());
@@ -94,7 +94,7 @@ class _01_0_ShapeMain {
                     // referring to an object of type _01_2_Rectangle, an inheritor class "_01_Shape"
                     _01_Shape rectangle = new _01_2_Rectangle(length, width);
 
-                    // adding new object of type "_01_Shape" ("_01_2_Rectangle") in the ArrayList
+                    // adding a new object of type "_01_Shape" ("_01_2_Rectangle") in the ArrayList
                     shapes.add(rectangle);
 
                     System.out.printf("%nData for %s: %n", rectangle.getName());
@@ -133,7 +133,7 @@ class _01_0_ShapeMain {
                     // referring to an object of type _01_2_Rectangle, an inheritor class "_01_Shape"
                     _01_Shape triangle = new _01_3_Triangle(side, height);
 
-                    // adding new object of type "_01_Shape" ("_01_3_Triangle") in the ArrayList
+                    // adding a new object of type "_01_Shape" ("_01_3_Triangle") in the ArrayList
                     shapes.add(triangle);
 
                     System.out.printf("%nData for %s: %n", triangle.getName());
@@ -160,7 +160,7 @@ class _01_0_ShapeMain {
                     // referring to an object of type _01_2_Rectangle, an inheritor class "_01_Shape"
                     _01_Shape square = new _01_4_Square(sideSquare);
 
-                    // adding new object of type "_01_Shape" ("_01_4_Square") in the ArrayList
+                    // adding a new object of type "_01_Shape" ("_01_4_Square") in the ArrayList
                     shapes.add(square);
 
                     System.out.printf("%nData for %s: %n", square.getName());

@@ -1,6 +1,6 @@
 package _3_PrinciplesOfOOP;
 
-public class _05_Book {
+class _05_Book {
     private final String title; // field 1
     private final String author; // field 2
     private final int yearPublished; // field 3

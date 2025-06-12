@@ -20,7 +20,7 @@ class _04_Figure_Main {
     }
 
     // Main method (program 4.0)
-    public static void main() {
+    public static void main(String[] args) {
         Scanner scrStr = new Scanner(System.in);
         Scanner scrNum = new Scanner(System.in);
 

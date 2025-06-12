@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class _02_0_ParticipantMain {
     // Main method
-    public static void main() {
+    public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
 
         // I. Junior participant
