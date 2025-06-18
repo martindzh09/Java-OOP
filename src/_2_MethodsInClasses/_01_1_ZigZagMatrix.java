@@ -2,7 +2,7 @@ package _2_MethodsInClasses;
 
 public class _01_1_ZigZagMatrix {
 
-    public static void main() {
+    public static void main(String[] args) {
         // creating an object, instance of the class "01_ZigZagMatrix"
         _01_0_ZigZagMatrix object = new _01_0_ZigZagMatrix();
 
