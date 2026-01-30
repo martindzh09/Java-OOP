@@ -10,7 +10,7 @@ public class _02_FieldsValue {
         // creating an object of the class '_02_FieldsValue'
         _02_FieldsValue myObject = new _02_FieldsValue();
 
-        // value of the field 'x' is changed
+        // a value of the field 'x' is changed
         myObject.x = 1;
         System.out.println(myObject.x);
 

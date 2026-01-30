@@ -8,7 +8,7 @@ public class _03_Person {
 
     int age;
 
-    public static void main() {
+    public static void main(String[] args) {
         Scanner scr = new Scanner(System.in);
 
         // creating an object of the class '_03_Person'
