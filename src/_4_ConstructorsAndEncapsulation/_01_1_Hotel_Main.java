@@ -1,7 +1,7 @@
-package _4_ConstructorsTasks;
+package _4_ConstructorsAndEncapsulation;
 import java.util.Scanner; import java.util.ArrayList;
 
-class _01_Hotel_Main {
+class _01_1_Hotel_Main {
     private static final Scanner scr = new Scanner(System.in);
 
     static String returnAnswer() {

@@ -1,4 +1,4 @@
-package _4_ConstructorsTasks;
+package _4_ConstructorsAndEncapsulation;
 
 class _01_Hotel {
     private final boolean freeParking;
